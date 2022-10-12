@@ -61,7 +61,7 @@ Function Set-Header {
     Return $header
 }
 
-#updating the inputs/config
+#update the inputs/config
 $restUserName = Get-BasicUserForAuth
 $tenantAPIKey = 'f8qE7xxxx+xxxxx7rh9g2f6xxxxxxxxxxbyna9PIcj8=' #Required to update the API Key
 $airwatchServer = "cn000.awmdm.com" #Required to update the Host Name
